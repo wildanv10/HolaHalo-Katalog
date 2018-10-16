@@ -25,7 +25,7 @@ menjadi
 
 setelah mengubah file .env maka selanjutnya yaitu:
 
-- membuka terminal didalam directory Project ini (contoh: c:xampp/htdocs/simple-katalog-master/)
+- membuka terminal didalam directory Project ini (contoh: c:xampp/htdocs/HolaHalo-Katalog-master/)
 - jalankan perintah "composer install" (pastikan composer telah terinstall di komputer anda) dan tunggu sampai proses selesai
 - selanjutnya jalankan perintah "php artisan key:generate"
 - jika telah selesai, maka selanjutnya adalah jalankan peritah "php artisan migrate" pada terminal anda dan tunggu sampai proses selesai
