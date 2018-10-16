@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/home', function () {
+    return view('welcome');
+});
 
 Route::get('/katalog', 'FrontController@tampilKatalog');
 Route::get('/katalog/{katalog}', 'FrontController@tampilKatalogDetail')->name('katalog-detail');

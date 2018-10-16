@@ -54,7 +54,6 @@ class KatalogController extends Controller
         
         $tambah = new Katalog();
         $idp = str_slug($request['nama_produk'], '_') . "_" . str_random(8);
-        $tambah->id_produk = $idp;
         $tambah->nama_produk = $request['nama_produk'];
         $tambah->model_produk = $request['model_produk'];
         
