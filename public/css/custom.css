@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  font-family: 'K2D', 'heltevica', sans-serif;
+}
+a:hover{
+  text-decoration: none;
+}
+.container-fluid{
+  padding: 0;
+}
+
+.kotak-berita img{
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  position: relative;
+}
+.kotak-berita .keterangan-berita{
+  width:90%;
+  height: auto;
+  background-color: #fcfcfc;
+  border: 1px solid #dadada;
+  border-radius: 3px;
+  margin-top:-70px;
+  padding: 5px;
+  color: #353535;
+}
+.keterangan-berita:hover{
+  box-shadow: 1px 1px 3px 0px #dadada;
+}
+.tag-berita{
+  background-color: dodgerblue;
+  max-width: 40%;
+  height: 30px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-top: -20px;
+  font-weight: bold;
+  color: #fafafa;
+}
+.judul-berita{
+  padding: 10px 3px 10px 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 23px;
+  font-weight: 800;
+  word-wrap: inherit;
+}
+.judul-berita a{
+  color: #151515;
+}
+.judul-berita a:hover{
+  color: #656565;
+}
+.kotak-berita .keterangan-berita .meta-berita{
+  font-size: 13px;
+}
+.kotak-berita .keterangan-berita .meta-berita i{
+  color: deepskyblue;
+}
+
+.footer-first{
+  font-size: 14px;
+  border-top: 3px solid #151515;
+  padding: 40px 0px 0px 0px;
+}
+.footer-second{
+  background-color: #151515;
+  color: #fafafa;
+  margin-top: 20px;
+  padding: 10px 0px;
+  font-size: 14px;
+}
